@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 540" role="img" aria-labelledby="title desc">
+  <title id="title">Pixel Planet landscape</title>
+  <desc id="desc">A cheerful stylized pixel-art scene with a purple sky, stars, mountains, trees, and a small explorer.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b9a8ff"/><stop offset="1" stop-color="#f7c7e8"/></linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8d79ed"/><stop offset="1" stop-color="#5842b9"/></linearGradient>
+  </defs>
+  <rect x="35" y="30" width="550" height="470" rx="30" fill="#e6dfff"/>
+  <rect x="60" y="55" width="500" height="420" rx="20" fill="url(#sky)"/>
+  <g fill="#fff8cb">
+    <rect x="130" y="105" width="10" height="10"/><rect x="145" y="90" width="10" height="10"/><rect x="160" y="105" width="10" height="10"/><rect x="145" y="120" width="10" height="10"/>
+    <rect x="425" y="110" width="9" height="9"/><rect x="438" y="97" width="9" height="9"/><rect x="451" y="110" width="9" height="9"/><rect x="438" y="123" width="9" height="9"/>
+    <circle cx="325" cy="100" r="5"/><circle cx="220" cy="165" r="4"/><circle cx="485" cy="190" r="5"/><circle cx="105" cy="205" r="4"/>
+  </g>
+  <circle cx="390" cy="160" r="34" fill="#ffe8a6"/><circle cx="401" cy="151" r="34" fill="#f7c7e8"/>
+  <path d="M60 315 L155 205 L220 275 L300 170 L415 310 L485 225 L560 300 V455 H60Z" fill="#9c8be9"/>
+  <path d="M105 300 L180 230 L215 272 L300 190 L385 300 L455 250 L560 335 V455 H60Z" fill="url(#hill)"/>
+  <path d="M60 365 Q160 315 245 365 T430 355 T560 350 V455 H60Z" fill="#5541a6"/>
+  <path d="M60 390 Q150 350 245 390 T430 380 T560 385 V455 H60Z" fill="#3d8e83"/>
+  <g fill="#246a65">
+    <rect x="105" y="330" width="20" height="45"/><rect x="90" y="315" width="50" height="20"/><rect x="80" y="330" width="70" height="18"/>
+    <rect x="465" y="320" width="20" height="55"/><rect x="450" y="302" width="50" height="22"/><rect x="440" y="320" width="70" height="18"/>
+  </g>
+  <g transform="translate(270 315)">
+    <rect x="20" y="0" width="38" height="38" rx="5" fill="#f6c56c"/>
+    <rect x="15" y="10" width="48" height="22" fill="#f6c56c"/>
+    <rect x="25" y="14" width="7" height="7" fill="#292044"/><rect x="46" y="14" width="7" height="7" fill="#292044"/>
+    <rect x="28" y="29" width="24" height="5" fill="#db875e"/>
+    <rect x="12" y="38" width="55" height="35" rx="5" fill="#f8f6ff"/>
+    <rect x="17" y="43" width="45" height="25" fill="#7156e8"/>
+    <rect x="18" y="72" width="17" height="22" fill="#292044"/><rect x="45" y="72" width="17" height="22" fill="#292044"/>
+    <rect x="2" y="43" width="13" height="28" fill="#f6c56c"/><rect x="64" y="43" width="13" height="28" fill="#f6c56c"/>
+    <rect x="27" y="48" width="26" height="15" fill="#f6c56c"/><path d="M40 48 L40 63 M27 55 H53" stroke="#fff8cb" stroke-width="3"/>
+  </g>
+  <g fill="#fff8cb"><rect x="180" y="390" width="8" height="8"/><rect x="205" y="420" width="8" height="8"/><rect x="405" y="405" width="8" height="8"/><rect x="440" y="390" width="8" height="8"/></g>
+  <rect x="85" y="460" width="450" height="8" rx="4" fill="#c1b4f6"/>
+</svg>
