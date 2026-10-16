@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.parallax {
+  background-attachment: fixed;   /* หัวใจของ parallax */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 {
+  background-image: url("https://picsum.photos/id/237/1920/1080");
+}
+
+.img2 {
+  background-image: url("https://picsum.photos/id/1025/1920/1080");
+}
+
+.block {
+  background-color: black;
+}
